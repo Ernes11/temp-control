@@ -1,0 +1,28 @@
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-item {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  margin-right: 1rem;
+}
+
+.completed-btn {
+  background-color: green;
+  color: white;
+  border-color: transparent;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.trash-btn {
+  background-color: red;
+  color: white;
+  border-color: transparent;
+}
